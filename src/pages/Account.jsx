@@ -39,18 +39,19 @@ const Account = () => {
             title="Subscriptions"
             link
           />
-        </List>
-        <List>
-          <ListButton>Redeem Gift Card or Code</ListButton>
-          <ListButton>Send Gift Card by Email</ListButton>
-          <ListButton>Add Funds to Apple ID</ListButton>
-        </List>
-        <List>
           <ListItem
             title="Personalised Recommendations"
             link
           />
         </List>
+        {/* <List>
+          <ListButton>Redeem Gift Card or Code</ListButton>
+          <ListButton>Send Gift Card by Email</ListButton>
+          <ListButton>Add Funds to Apple ID</ListButton>
+        </List> */}
+        {/* <List>
+          
+        </List> */}
       </Page>
     </Popup>
   );
